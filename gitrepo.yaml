@@ -13,7 +13,7 @@ spec:
   paths:
   - "./namespaces"
   - "./cert-manager"
-  - "./kubewarden/kubewarden-crds"
-  - "./kubewarden/kubewarden-controller"
-  - "./kubewarden/kubewarden-defaults"
-  - "./kubewarden-policies"
+  - "./kubewarden/crds"
+  - "./kubewarden/controller"
+  - "./kubewarden/defaults"
+  - "./kubewarden/policies"

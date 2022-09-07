@@ -5,4 +5,4 @@ helm:
   version: 1.1.1
   releaseName: kubewarden-controller
 dependsOn:
-  - name: kubewarden-kubewarden-crds
+  - name: kubewarden-kubewarden-kubewarden-crds

@@ -1,2 +1,2 @@
 resources:
-- safe-labels.yaml
+- privilege-escalation.yaml

@@ -11,9 +11,4 @@ spec:
       matchLabels:
         protected: enabled
   paths:
-  - "./namespaces"
-  - "./cert-manager"
-  - "./kubewarden/kubewarden-crds"
-  - "./kubewarden/kubewarden-controller"
-  - "./kubewarden/kubewarden-defaults"
-  - "./kubewarden/kubewarden-policies"
+  - "./kubewarden/crds"

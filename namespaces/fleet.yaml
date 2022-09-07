@@ -1,2 +1,4 @@
+defaultNamespace: cattle-system
+
 kustomize:
   dir: ./resources

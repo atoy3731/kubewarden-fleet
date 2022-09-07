@@ -1,0 +1,8 @@
+defaultNamespace: kubewarden
+helm:
+  repo: https://charts.kubewarden.io
+  chart: kubewarden-defaults
+  version: 1.9.1
+  releaseName: kubewarden-defaults
+dependsOn:
+  - name: kubewarden-kubewarden-controller

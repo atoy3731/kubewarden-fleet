@@ -1,0 +1,19 @@
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: kubewarden
+  namespace: fleet-default
+spec:
+  repo: https://github.com/atoy3731/kubewarden-fleet.git
+  targets:
+  - name: protected
+    clusterSelector:
+      matchLabels:
+        protected: enabled
+  paths:
+  - "./namespaces"
+  - "./cert-manager"
+  - "./kubewarden/kubewarden-crds"
+  - "./kubewarden/kubewarden-controller"
+  - "./kubewarden/kubewarden-defaults"
+  - "./kubewarden-policies"

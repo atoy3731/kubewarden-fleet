@@ -1,0 +1,8 @@
+defaultNamespace: kubewarden
+helm:
+  repo: https://charts.kubewarden.io
+  chart: kubewarden-crds
+  version: 1.9.1
+  releaseName: kubewarden-crds
+dependsOn:
+  - name: kubewarden-cert-manager

@@ -1,2 +1,2 @@
 resources:
-- privilege-escalation.yaml
+- istio-enforcement.yaml

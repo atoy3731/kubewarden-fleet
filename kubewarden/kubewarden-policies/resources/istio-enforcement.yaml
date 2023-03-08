@@ -16,7 +16,7 @@ spec:
     - cattle-fleet-system
     - cert-manager
     excluded_pod_labels:
-      istioEnforcing: disabled
+      istioEnforcing: testing
   rules:
     - apiGroups:
         - ""
